@@ -72,7 +72,7 @@ public class Practica1 {
                         while (n2 == 0) {
                             do {
                                 System.err.println(" Al denominador hi ha un zero \n"
-                                        + "per a  evitar errors coloca un altre valor.");
+                                        + "per a  evitar errors coloca un altre valor....");
                                 numero2 = sc.nextLine();
                             } while (!numero2.matches("[+-]?[\\d]*[.]?[\\d]+"));
                             nume2 = Double.parseDouble(numero2);
